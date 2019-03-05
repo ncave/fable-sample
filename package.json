@@ -1,0 +1,16 @@
+{
+  "name": "fable-sample",
+  "version": "1.0.0",
+  "description": "Fable sample project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "scripts": {
+    "build": "fable fable-sample.fsproj out --commonjs",
+    "build-opt": "fable fable-sample.fsproj out --commonjs --optimize-fcs",
+    "test": "node out/src/app"
+  },
+  "devDependencies": {
+    "fable-compiler-js": "^1.0.2"
+  }
+}
