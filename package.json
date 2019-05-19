@@ -8,9 +8,10 @@
   "scripts": {
     "build": "fable fable-sample.fsproj out --commonjs",
     "build-opt": "fable fable-sample.fsproj out --commonjs --optimize-fcs",
+    "build-dotnet": "dotnet build -c Release",
     "test": "node out/src/app"
   },
   "devDependencies": {
-    "fable-compiler-js": "^1.0.2"
+    "fable-compiler-js": "^1.0.3"
   }
 }
