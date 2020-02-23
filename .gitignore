@@ -16,5 +16,8 @@ jspm_packages
 bin
 obj
 
+# Plugins
+.ionide
+
 # Output
 out
