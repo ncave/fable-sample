@@ -12,6 +12,6 @@
     "test": "node out/src/app"
   },
   "devDependencies": {
-    "fable-compiler-js": "^1.2.1"
+    "fable-compiler-js": "^1.2.3"
   }
 }
